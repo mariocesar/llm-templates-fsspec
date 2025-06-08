@@ -23,7 +23,7 @@
         CI        = "https://github.com/mariocesar/llm-templates-fsspec/actions"
 
     [project.entry-points.llm]
-        templates_github = "llm_templates_local"
+        templates_github = "llm_templates_fsspec"
 
     [project.optional-dependencies]
         test = ["pytest", "pytest-httpx"]
