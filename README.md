@@ -74,6 +74,12 @@ The `llm-templates-fsspec` plugin leverages the robust `fsspec` library to provi
 - **Extensibility**: Support for new storage backends
 
 ## Examples
+### Using templates from local
+
+```bash
+# Assuming your on this repository cloned in your computer.
+cat README.md | llm -t "fsspec:file://$(pwd)/demo/template-demo.yaml"
+```
 
 ### Using templates from a private S3 bucket
 ```bash
