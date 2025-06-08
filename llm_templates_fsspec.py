@@ -15,8 +15,6 @@ def register_template_loaders(register):
 def fsspec_template_loader(template_path: str) -> Template:
     """Load a template from any fsspec URL."""
 
-    print(f"Loading template from fsspec path: {template_path}")
-
     cache_dir = os.getenv("LLM_TEMPLATES_FSSPEC_CACHE_DIR")
     storage_options_env = os.getenv("LLM_TEMPLATES_FSSPEC_STORAGE_OPTIONS")
     storage_options = {}
