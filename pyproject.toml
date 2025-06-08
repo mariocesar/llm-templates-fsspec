@@ -1,6 +1,6 @@
 [project]
     name            = "llm-templates-fsspec"
-    version         = "0.1.0"
+    version         = "0.1.1"
     description     = "Load LLM templates from local paths and cloud storage (S3, GCS, Azure) using any supported fsspec URL scheme."
     readme          = "README.md"
     authors         = [{ name = "Mario-César Señoranis" }]
